@@ -1,0 +1,12 @@
+[package]
+name = "actix-gcd"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "1.0.8"
+# クレートによっては、全てのユーザーが必要とするわけではない機能を
+# 以下のように features を使ってユーザーが自身でライブラリに含めることができる
+serde = { version = "1.0", features = ["derive"] }
