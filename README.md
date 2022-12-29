@@ -12,3 +12,4 @@
 | テキスト置換の CLI               | [./quickreplace](./quickreplace)  |
 | 固定長数値                       | [./fixed-numbers](./fixed-number) |
 | 文字                             | [./chars](./chars)                |
+| タプル                           | [./tuple](./tuple)                |
