@@ -15,3 +15,4 @@
 | タプル                           | [./tuple](./tuple)                |
 | ポインタ                         | [./pointer](./pointer)            |
 | 配列・ベクタ・スライス           | [./array](./array)                |
+| 文字列                           | [./strings](./strings)            |
