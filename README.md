@@ -14,3 +14,4 @@
 | 文字                             | [./chars](./chars)                |
 | タプル                           | [./tuple](./tuple)                |
 | ポインタ                         | [./pointer](./pointer)            |
+| 配列・ベクタ・スライス           | [./array](./array)                |
