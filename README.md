@@ -18,3 +18,4 @@
 | 文字列                           | [./strings](./strings)            |
 | パニック                         | [panic](./panic)                  |
 | Result                           | [result](./result)                |
+| Module                           | [module](./module)                |
