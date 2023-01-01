@@ -17,3 +17,4 @@
 | 配列・ベクタ・スライス           | [./array](./array)                |
 | 文字列                           | [./strings](./strings)            |
 | パニック                         | [panic](./panic)                  |
+| Result                           | [result](./result)                |
