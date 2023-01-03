@@ -20,3 +20,4 @@
 | Result                           | [result](./result)                |
 | Module                           | [module](./module)                |
 | ライブラリ                       | [library](./library)              |
+| 構造体                           | [structure](./structure)          |
