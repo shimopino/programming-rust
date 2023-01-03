@@ -19,3 +19,4 @@
 | パニック                         | [panic](./panic)                  |
 | Result                           | [result](./result)                |
 | Module                           | [module](./module)                |
+| ライブラリ                       | [library](./library)              |
