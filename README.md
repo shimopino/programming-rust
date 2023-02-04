@@ -18,9 +18,14 @@
 | 文字列                           | [./strings](./strings)            |
 | パニック                         | [panic](./panic)                  |
 | Result                           | [result](./result)                |
-| Module                           | [module](./module)                |
-| ライブラリ                       | [library](./library)              |
 | 構造体                           | [structure](./structure)          |
+
+## 第 8 章　クレートとモジュール
+
+| タイトル   | パス                 |
+| :--------- | :------------------- |
+| Module     | [module](./module)   |
+| ライブラリ | [library](./library) |
 
 ## 第 10 章 列挙型とパターン
 

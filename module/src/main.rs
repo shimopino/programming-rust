@@ -1,11 +1,23 @@
-use crate::{sample::sample_fn, structures::stems::stems_fn};
+use crate::{
+    sample::{sample_fn, Ferm},
+    structures::stems::stems_fn,
+};
 
 mod sample;
 mod structures;
 
 fn main() {
-    println!("Hello, world!");
+    // mod sample
+    // これで sample.rs を読み取り、内部の関数や構造体にアクセスすることができる
     sample_fn();
+
+    // missing structure fields: - name
+    // let ferm = Ferm {
+    //     roots: "sample_ferm".to_string(),
+    //     stems: 10,
+    // };
+
+    println!("Hello, world!");
     stems_fn();
 }
 

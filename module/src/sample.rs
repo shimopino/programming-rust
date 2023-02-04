@@ -1,7 +1,7 @@
 pub struct Ferm {
     // モジュールの外部からアクセスできるフィールドを宣言
-    pub roots: RootSet,
-    pub stems: StemSet,
+    pub roots: String,
+    pub stems: u32,
 
     // プライベートフィールド
     // 構造体が定義されたモジュール内部とそのサブモジュールからはアクセスできる
