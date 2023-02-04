@@ -18,7 +18,6 @@
 | 文字列                           | [./strings](./strings)            |
 | パニック                         | [panic](./panic)                  |
 | Result                           | [result](./result)                |
-| 構造体                           | [structure](./structure)          |
 
 ## 第 8 章　クレートとモジュール
 
@@ -27,6 +26,12 @@
 | Module     | [module](./module)   |
 | ライブラリ | [library](./library) |
 | テスト     | [tests](./tests)     |
+
+## 第 9 章　構造体
+
+| タイトル | パス                     |
+| :------- | :----------------------- |
+| 構造体   | [structure](./structure) |
 
 ## 第 10 章 列挙型とパターン
 

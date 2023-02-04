@@ -1,3 +1,4 @@
+mod ascii;
 mod autotrait;
 mod broom;
 mod generics;
