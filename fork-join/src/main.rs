@@ -1,8 +1,11 @@
+use rayon_thread::process_with_rayon;
 use std::{
     sync::Arc,
     thread::{self},
     vec,
 };
+
+mod rayon_thread;
 
 fn main() {
     process_child_thread();
@@ -11,6 +14,10 @@ fn main() {
     let glossary = vec!["glossary".to_string()];
     // Arc::new によってアトミックな参照カウントを初期化する
     process_child_thread_with_immutable_data(words, Arc::new(glossary));
+
+    let words = vec!["hello".to_string(), "world".to_string()];
+    let glossary = vec!["glossary".to_string()];
+    process_with_rayon(words, Arc::new(glossary));
 }
 
 fn process_child_thread() {
